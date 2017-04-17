@@ -1,0 +1,73 @@
+/* Syed Nayyer                  */
+/* ITMD361 Production Problem 6 */
+/* Date: April 17, 2017         */
+
+#main-navbar {
+  width: 100%;
+  position: relative;
+  background-color: blue;
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: left;
+  position: relative;
+  left: 50%;
+}
+
+#navbar-container ul {
+  float: left;
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  right: 50%;
+}
+
+#navbar-container ul li {
+  float: left;
+  display: block;
+  padding: 10px 20px;
+}
+
+#navbar-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar-container a:active {
+  background-color: #000;
+}
+
+#onpage a {
+  text-decoration: underline overline;
+}
+
+#sidebar {
+  position: fixed;
+  right: 0%;
+  background-color: red;
+  width: 20%;
+  height: 100%;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+#sidebar ul li {
+  display: block;
+  padding: 15px 0;
+}
+
+#sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#sidebar a:active {
+  background-color: #000;
+}
